@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.32.0](https://github.com/supabase/supabase-py/compare/v2.31.0...v2.32.0) (2026-08-12)
+
+
+### Features
+
+* support new realtime features ([#1524](https://github.com/supabase/supabase-py/issues/1524)) ([80688d1](https://github.com/supabase/supabase-py/commit/80688d1278634b7190fc9e7f57b3e885ff3f027c))
+
+
+### Bug Fixes
+
+* **ci:** point SDK compliance workflow at the python reusable workflow ([#1540](https://github.com/supabase/supabase-py/issues/1540)) ([b16b16a](https://github.com/supabase/supabase-py/commit/b16b16a175be0bfc57cf7af6acac01ef4078590a))
+* **client_options:** honor False for boolean options in replace() ([#1516](https://github.com/supabase/supabase-py/issues/1516)) ([10fb8f9](https://github.com/supabase/supabase-py/commit/10fb8f9029d4659f1ea874e7154b3ae19a4a1fa1))
+* **postgrest:** align rpc maybe_single with select ([#1555](https://github.com/supabase/supabase-py/issues/1555)) ([0490201](https://github.com/supabase/supabase-py/commit/0490201fb7f201808d0dfdf521ec17015f67b308))
+* **postgrest:** coerce non-string values in array filters ([#1530](https://github.com/supabase/supabase-py/issues/1530)) ([3433b0d](https://github.com/supabase/supabase-py/commit/3433b0db4993445a459c6ed7e497e3bdcc194258))
+* **storage:** cache control header and retry safety ([#1556](https://github.com/supabase/supabase-py/issues/1556)) ([e9f1141](https://github.com/supabase/supabase-py/commit/e9f11419fca9f97cfcd175cf4bb5bdbfc7e17b5a))
+
+
+### Documentation
+
+* fix code of conduct link in CONTRIBUTING ([#1538](https://github.com/supabase/supabase-py/issues/1538)) ([3c98900](https://github.com/supabase/supabase-py/commit/3c9890089c7dab5891feb9fdc7872dca9c5a749b))
+
 ## [2.31.0](https://github.com/supabase/supabase-py/compare/v2.30.1...v2.31.0) (2026-06-04)
 
 
